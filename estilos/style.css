@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: #000000;
+
+}
+
+body {
+    font-family: "inter";
+    font-size: 23px;
+    background-color: #ffffff;
+}
+.main_header {
+    background-color: #66CB42;
+    text-align: center;
+    height: 140px;
+}
+
+.main_header_nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.main_header_nav {
+    text-align: center;
+
+}
+
+.main_header_nav_boton {
+    background-color: #218F3E;
+    width: 340px;
+    height: 386.41;
+    padding: 18px;
+    margin-top: 30px;
+    margin-bottom: 31px;
+    margin-right: 80px;
+    border-radius: 167px;
+}
+.color_palabra{
+    color: white;
+}
+
+.main_header_nav_boton:hover {
+    padding: 20px;
+    line-height: 1;
+}
+footer{
+    background-color: #125B00;
+    bottom: 0px;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    align-items: center;
+    text-align: center;
+}
+.derechos_reservados{
+    padding: 20px;
+    color: #ffffff;
+}
+
+/*Inicio Página Home*/
+.pagina_inicio{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+    list-style-type: none;
+    line-height: 3;
+    position: relative;
+    top: 100px;
+}
+
+
+
+
+
+
+
+/*Fin Página Home*/
+
+
+
+
+
+
+
+
+/*Inicio Página Integrantes*/
+.imagen_integrantes{
+        width: 340px;
+        height: 350px;
+        flex-shrink: 0;
+        border-radius: 167px;
+        margin: 16px;
+        padding: 26px;
+}
+
+.cv_boton{
+    background-color: #D9D9D9;
+    width: 340px;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 167px;
+}
+.cv_boton:hover{
+    background-color: #66CB42;
+    padding: 19px;
+    transition: all .9s ease;
+}
+
+.cv_alumnos{
+    display: flex;
+    flex-direction: column;
+}
+
+.cv_integrantes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+h3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: underline;
+}
+/*Fin Página Integrantes*/
+
+/*Inicio Página Proyecto*/
+.proyecto_caja{
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    text-align: center;
+    width: 900px;
+    position: relative;
+    left: 380px;
+}
+.nombre_proyecto{
+    padding: 20px;
+}
+.propuesta_proyecto{
+    padding: 30px;
+}
+
+
+
+/*Fin Página Proyecto*/
+
+
+/*Inicio Página Avances*/
+.imagen_construccion{
+    width: 500px;
+    height: 500px;
+    margin: 100px;
+    position: relative;
+    left: 550px;
+}
+/*Fin Página Avances*/
