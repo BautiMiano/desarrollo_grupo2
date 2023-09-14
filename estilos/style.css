@@ -69,12 +69,19 @@ footer{
 .pagina_inicio{
     display: flex;
     flex-direction: column;
-    padding: 50px;
     align-items: center;
     list-style-type: none;
     line-height: 3;
     position: relative;
     top: 100px;
+
+}
+.pagina_inicio_caja{
+    padding: 66px;
+    border: 2px solid #66CB42;
+    box-sizing: content-box;
+    background-color: #D9D9D9;
+    
 }
 
 
