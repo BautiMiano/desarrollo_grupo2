@@ -1,5 +1,4 @@
 * {
-    padding: 0;
     margin: 0;
 }
 
@@ -48,8 +47,14 @@ body {
 }
 
 .main_header_nav_boton:hover {
-    padding: 20px;
-    line-height: 1;
+    transform: scale(1.2);
+    transition: all 100ms;
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    -ms-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    background-color: #125B00 ;
+
 }
 footer{
     background-color: #125B00;
@@ -152,6 +157,7 @@ h3{
     width: 900px;
     position: relative;
     left: 450px;
+    overflow: auto;
 }
 .propuesta_proyecto{
     padding: 15px;
