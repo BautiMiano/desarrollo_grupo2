@@ -213,4 +213,7 @@ h3{
     .pagina_inicio{
      padding: 20px;
     }
+    .footer_avances_sitio{
+        position: fixed;
+    }
 }
