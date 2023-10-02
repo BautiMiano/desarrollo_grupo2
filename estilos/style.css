@@ -17,12 +17,11 @@ body {
 .main_header {
     background-color: #66CB42;
     text-align: center;
-    height: 140px;
+    height: 100%;
 }
 
 .main_header_nav ul {
     display: flex;
-    flex-direction: row;
     justify-content: center;
 
 }
@@ -35,7 +34,6 @@ body {
 .main_header_nav_boton {
     background-color: #218F3E;
     width: 340px;
-    height: 386.41;
     padding: 18px;
     margin-top: 30px;
     margin-bottom: 31px;
@@ -174,9 +172,45 @@ h3{
 /*Inicio Página Avances*/
 .imagen_construccion{
     width: 500px;
-    height: 500px;
     margin: 100px;
     position: relative;
     left: 550px;
 }
 /*Fin Página Avances*/
+
+@media(max-width:550px){
+    .main_header_nav ul{
+        flex-wrap: wrap;
+    }
+    .imagen_salud {
+        width: 8em;
+        padding: 40px;
+    }
+    .main_header_nav_boton {
+        width: 139px;
+        margin: 20px;
+    }   
+    .imagen_construccion{
+        width: 20em;
+        padding: 2em;
+        margin: 0px;
+        position: relative;
+        left: 0px;
+    }
+    .proyecto_caja{
+        display: flex;
+        flex-direction: column;
+        margin: 60px;
+        text-align: center;
+        width: 19em;
+        position: relative;
+        left: 0px;
+        overflow: auto;
+    }
+    footer {
+        position: sticky;
+    }
+    .pagina_inicio{
+     padding: 20px;
+    }
+}
