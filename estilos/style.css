@@ -80,7 +80,7 @@ footer{
     line-height: 3;
 }
 .pagina_inicio_caja{
-    padding: 66px;
+    padding: 25px;
     border: 2px solid #66CB42;
     box-sizing: content-box;
     background-color: #D9D9D9;
@@ -157,7 +157,7 @@ h3{
     text-align: center;
     width: 900px;
     position: relative;
-    left: 450px;
+    left: 250px;
     overflow: auto;
 }
 .propuesta_proyecto{
@@ -171,13 +171,20 @@ h3{
 
 /*Fin Página Proyecto*/
 
+/*Inicio Página Integrantes*/
+
+
+
+
+/*Fin Página Integrantes*/
+
 
 /*Inicio Página Avances*/
 .imagen_construccion{
     width: 500px;
     margin: 100px;
     position: relative;
-    left: 550px;
+    left: 450px;
 }
 /*Fin Página Avances*/
 
@@ -186,7 +193,7 @@ h3{
         flex-wrap: wrap;
     }
     .imagen_salud {
-        width: 8em;
+        width: 10em;
         padding: 40px;
     }
     .main_header_nav_boton {
@@ -196,7 +203,7 @@ h3{
     .imagen_construccion{
         width: 20em;
         padding: 2em;
-        margin: 0px;
+        margin: 35px;
         position: relative;
         left: 0px;
     }
