@@ -15,11 +15,10 @@ body {
     background-color: #ffffff;
 }
 .main_header {
-    background-color: #66CB42;
+    background-color: #83B248;
     text-align: center;
     height: 100%;
 }
-
 .main_header_nav ul {
     display: flex;
     justify-content: center;
@@ -55,17 +54,19 @@ body {
 
 }
 footer{
-    background-color: #125B00;
+    background-color: #83B248;
     bottom: 0px;
     height: 70px;
     width: 100%;
     position: fixed;
-    align-items: center;
     text-align: center;
-}
-.derechos_reservados{
-    padding: 20px;
+    padding: 25px;
     color: #ffffff;
+}
+footer div {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
 }
 .imagen-logo{
     border-radius: 20px;
@@ -157,7 +158,7 @@ h3{
     text-align: center;
     width: 900px;
     position: relative;
-    left: 250px;
+    left: 450px;
     overflow: auto;
 }
 .propuesta_proyecto{
@@ -165,6 +166,12 @@ h3{
 }
 .imagen_vida{
     padding: 40px;
+}
+.logo-life-good{
+    width: 35em;
+    height: 26em;
+    position: relative;
+    left: 55px;
 }
 
 
@@ -180,12 +187,28 @@ h3{
 
 
 /*Inicio Página Avances*/
+.caja-informacion{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+.texto-informacion{
+    padding: 30px;
+}
+
+.logo-avances{
+    width: 28em;
+    position: relative;
+    bottom: 100px;
+}
 .imagen_construccion{
     width: 500px;
     margin: 100px;
     position: relative;
-    left: 450px;
+    left: 600px;
 }
+
+
 /*Fin Página Avances*/
 
 @media(max-width:550px){
@@ -207,6 +230,10 @@ h3{
         position: relative;
         left: 0px;
     }
+
+    .imagen_vida{
+        padding: 0px;
+    }
     .proyecto_caja{
         display: flex;
         flex-direction: column;
@@ -214,16 +241,34 @@ h3{
         text-align: center;
         width: 19em;
         position: relative;
-        left: 0px;
+        left: -28px;
         overflow: auto;
     }
     footer {
         position: sticky;
+        background-color: #83B248;
+        bottom: 0px;
+        height: 74px;
+        width: 100%;
+        text-align: center;
+        padding: 25px;
+        color: #ffffff;
+        font-size: 11px;
     }
     .pagina_inicio{
      padding: 20px;
     }
     .footer_avances_sitio{
         position: fixed;
+    }
+    .logo-life-good{
+        width: 22em;
+        height: 23em;
+        left: -15px;
+    }
+    .logo-avances {
+        width: 17em;
+        position: relative;
+        bottom: 43px;
     }
 }
