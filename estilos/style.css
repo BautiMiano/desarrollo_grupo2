@@ -158,7 +158,7 @@ h3{
     text-align: center;
     width: 900px;
     position: relative;
-    left: 450px;
+    left: 300px;
     overflow: auto;
 }
 .propuesta_proyecto{
@@ -191,6 +191,10 @@ h3{
     padding: 20px;
     margin: 20px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
 }
 .texto-informacion{
     padding: 30px;
@@ -206,6 +210,18 @@ h3{
     margin: 100px;
     position: relative;
     left: 600px;
+}
+.caja-texto-informacion{
+    background: rgb(131,178,72);
+    background: linear-gradient(90deg, rgba(131,178,72,1) 0%, rgba(218,255,173,1) 48%, rgba(131,178,72,1) 100%);
+    border-radius: 20px;
+    width: 50%;
+    gap: 10px;
+}
+hr{
+    border: 1px solid #000000;
+    margin: 20px 0;
+    width: 100%;
 }
 
 
@@ -241,7 +257,7 @@ h3{
         text-align: center;
         width: 19em;
         position: relative;
-        left: -28px;
+        left: -10px;
         overflow: auto;
     }
     footer {
@@ -258,17 +274,31 @@ h3{
     .pagina_inicio{
      padding: 20px;
     }
-    .footer_avances_sitio{
-        position: fixed;
-    }
+
     .logo-life-good{
         width: 22em;
         height: 23em;
-        left: -15px;
+        position: relative;
+        left: -20px;
+
+    }
+
+
+    /*Inicio pagina Avances*/
+    .footer_avances_sitio{
+        position: fixed;
     }
     .logo-avances {
         width: 17em;
         position: relative;
         bottom: 43px;
     }
+    .caja-texto-informacion{        
+        width: 100%;
+        gap: 10px;
+    
+    }
+
+    /*Fin pagina Avances*/
+
 }
