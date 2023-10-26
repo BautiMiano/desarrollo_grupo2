@@ -56,7 +56,6 @@ body {
 footer{
     background-color: #83B248;
     bottom: 0px;
-    height: 70px;
     width: 100%;
     position: fixed;
     text-align: center;
@@ -198,6 +197,8 @@ h3{
 }
 .texto-informacion{
     padding: 30px;
+    display: flex;
+    flex-direction: column;
 }
 
 .logo-avances{
@@ -205,6 +206,10 @@ h3{
     position: relative;
     bottom: 100px;
 }
+.informacion-caja{
+    padding: 20px;
+}
+
 .imagen_construccion{
     width: 500px;
     margin: 100px;
@@ -218,16 +223,78 @@ h3{
     width: 50%;
     gap: 10px;
 }
-hr{
-    border: 1px solid #000000;
+.hr-linea{
+    border: 1px solid #5c7e31;
     margin: 20px 0;
-    width: 100%;
+    width: 80%;
+}
+.imagen-arbol{
+    width: 850px;
+    padding: 55px;
+}
+.texto-arbol{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.logo-github{
+    width: 150px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.github-figma{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.logo-figma{
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.texto-roles{
+    text-align: center;
+    padding-top: 20px;
+}
+.informacion-roles{
+    padding: 20px;
+}
+.roles-li{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 110px;
+    padding-top: 25px;
+    align-items: center;
 }
 
 
 /*Fin Página Avances*/
 
 @media(max-width:550px){
+    footer{
+        background-color: #83B248;
+        font-size: 13px;
+        bottom: 0px;
+        width: 100%;
+        position: fixed;
+        text-align: center;
+        padding: 25px;
+        color: #ffffff;
+    }
+    .centrar-footer{
+        text-align: center;
+        position: relative;
+        right: 25px;
+    }
     .main_header_nav ul{
         flex-wrap: wrap;
     }
@@ -260,17 +327,7 @@ hr{
         left: -10px;
         overflow: auto;
     }
-    footer {
-        position: sticky;
-        background-color: #83B248;
-        bottom: 0px;
-        height: 74px;
-        width: 100%;
-        text-align: center;
-        padding: 25px;
-        color: #ffffff;
-        font-size: 11px;
-    }
+
     .pagina_inicio{
      padding: 20px;
     }
@@ -289,14 +346,21 @@ hr{
         position: fixed;
     }
     .logo-avances {
-        width: 17em;
+        width: 20em;
         position: relative;
         bottom: 43px;
     }
     .caja-texto-informacion{        
         width: 100%;
         gap: 10px;
-    
+    }
+    .imagen-arbol{
+        width: 520px;
+        padding: 50px;
+    }
+    .roles-li{
+        padding-bottom: 150px;
+
     }
 
     /*Fin pagina Avances*/
