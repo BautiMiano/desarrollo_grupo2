@@ -150,21 +150,22 @@ h3{
 /*Fin Página Integrantes*/
 
 /*Inicio Página Proyecto*/
-.proyecto_caja{
+.proyecto_caja {
     display: flex;
     flex-direction: column;
     margin: 60px;
     text-align: center;
     width: 900px;
     position: relative;
-    left: 300px;
+    left: 200px;
     overflow: auto;
+    align-items: center;
 }
 .propuesta_proyecto{
     padding: 15px;
 }
 .imagen_vida{
-    padding: 40px;
+    padding-bottom: 60px;
 }
 .logo-life-good{
     width: 35em;
@@ -290,11 +291,6 @@ h3{
         padding: 25px;
         color: #ffffff;
     }
-    .centrar-footer{
-        text-align: center;
-        position: relative;
-        right: 25px;
-    }
     .main_header_nav ul{
         flex-wrap: wrap;
     }
@@ -315,7 +311,8 @@ h3{
     }
 
     .imagen_vida{
-        padding: 0px;
+        padding-bottom: 60px;
+        width: 800px;
     }
     .proyecto_caja{
         display: flex;
