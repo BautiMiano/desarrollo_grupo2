@@ -155,24 +155,20 @@ h3{
     flex-direction: column;
     margin: 60px;
     text-align: center;
-    width: 900px;
-    position: relative;
-    left: 200px;
     overflow: auto;
     align-items: center;
 }
-.propuesta_proyecto{
-    padding: 15px;
-}
-.imagen_vida{
-    padding-bottom: 60px;
+
+.imagen_vida {
+    padding-bottom: 10%;
+    width: 50%;
 }
 .logo-life-good{
-    width: 35em;
-    height: 26em;
-    position: relative;
-    left: 55px;
+    width: 35%;
+    margin-bottom: 5%;
+
 }
+
 
 
 
@@ -310,18 +306,16 @@ h3{
         left: 0px;
     }
 
-    .imagen_vida{
-        padding-bottom: 60px;
-        width: 800px;
+    .imagen_vida {
+        margin-bottom: 10%;
+        width: 75%;
     }
-    .proyecto_caja{
+    .proyecto_caja {
         display: flex;
         flex-direction: column;
-        margin: 60px;
-        text-align: center;
-        width: 19em;
-        position: relative;
-        left: -10px;
+        margin: 15%;
+        width: 72%;
+        align-items: center;
         overflow: auto;
     }
 
@@ -330,10 +324,8 @@ h3{
     }
 
     .logo-life-good{
-        width: 22em;
-        height: 23em;
-        position: relative;
-        left: -20px;
+        width: 115%;
+        margin-bottom: 23%;
 
     }
 
