@@ -14,11 +14,13 @@ body {
     font-size: 23px;
     background-color: #ffffff;
 }
+
 .main_header {
     background-color: #83B248;
     text-align: center;
     height: 100%;
 }
+
 .main_header_nav ul {
     display: flex;
     justify-content: center;
@@ -39,7 +41,8 @@ body {
     margin-right: 80px;
     border-radius: 167px;
 }
-.color_palabra{
+
+.color_palabra {
     color: white;
 }
 
@@ -50,10 +53,11 @@ body {
     -moz-transition: all 300ms;
     -ms-transition: all 300ms linear;
     -o-transition: all 300ms linear;
-    background-color: #125B00 ;
+    background-color: #125B00;
 
 }
-footer{
+
+footer {
     background-color: #83B248;
     bottom: 0px;
     width: 100%;
@@ -62,31 +66,35 @@ footer{
     padding: 1.4%;
     color: #ffffff;
 }
+
 footer div {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
 }
-.imagen-logo{
+
+.imagen-logo {
     border-radius: 20px;
 }
 
 /*Inicio Página Home*/
-.pagina_inicio{
+.pagina_inicio {
     display: flex;
     flex-direction: column;
     align-items: center;
     list-style-type: none;
     line-height: 3;
 }
-.pagina_inicio_caja{
+
+.pagina_inicio_caja {
     padding: 3%;
     border: 2px solid #66CB42;
     box-sizing: content-box;
     background-color: #D9D9D9;
-    
+
 }
-.imagen_salud{
+
+.imagen_salud {
     width: 16%;
     padding: 2%;
 }
@@ -108,46 +116,49 @@ footer div {
 
 
 /*Inicio Página Integrantes*/
-.imagen_integrantes{
-        width: 340px;
-        height: 350px;
-        flex-shrink: 0;
-        border-radius: 167px;
-        margin: 16px;
-        padding: 26px;
+.imagen_integrantes {
+    width: 100%;
+    height: 350px;
+    flex-shrink: 0;
+    border-radius: 167px;
+    margin: 0%;
+    padding: 5%;
+
 }
 
-.cv_boton{
+.cv_boton {
     background-color: #D9D9D9;
-    width: 340px;
-    padding: 15px;
-    margin: 20px;
+    width: 90%;
+    padding: 3%;
+    margin: 3%;
     border-radius: 167px;
 }
-.cv_boton:hover{
+
+.cv_boton:hover {
     background-color: #66CB42;
-    padding: 19px;
+    padding: 5%;
     transition: all .9s ease;
 }
 
-.cv_alumnos{
+.cv_alumnos {
     display: flex;
     flex-direction: column;
 }
 
-.cv_integrantes{
+.cv_integrantes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 6%;
 }
 
-h3{
+h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-decoration: underline;
 }
+
 /*Fin Página Integrantes*/
 
 /*Inicio Página Proyecto*/
@@ -164,7 +175,8 @@ h3{
     padding-bottom: 10%;
     width: 50%;
 }
-.logo-life-good{
+
+.logo-life-good {
     width: 35%;
     margin-bottom: 5%;
 
@@ -184,7 +196,7 @@ h3{
 
 
 /*Inicio Página Avances*/
-.caja-informacion{
+.caja-informacion {
     padding: 5%;
     text-align: center;
     display: flex;
@@ -192,61 +204,69 @@ h3{
     gap: 100px;
     align-items: center;
 }
-.texto-informacion{
+
+.texto-informacion {
     padding: 2%;
     display: flex;
     flex-direction: column;
 }
 
-.logo-avances{
+.logo-avances {
     width: 100%;
 }
-.informacion-caja{
+
+.informacion-caja {
     padding: 4%;
 }
 
-.imagen_construccion{
-    width: 500px;
-    margin: 100px;
+.imagen_construccion {
+    width: 30%;
+    margin: 5%;
     position: relative;
-    left: 600px;
+    left: 30%;
 }
-.caja-texto-informacion{
-    background: rgb(131,178,72);
-    background: linear-gradient(90deg, rgba(131,178,72,1) 0%, rgba(218,255,173,1) 48%, rgba(131,178,72,1) 100%);
+
+.caja-texto-informacion {
+    background: rgb(131, 178, 72);
+    background: linear-gradient(90deg, rgba(131, 178, 72, 1) 0%, rgba(218, 255, 173, 1) 48%, rgba(131, 178, 72, 1) 100%);
     border-radius: 20px;
     width: 50%;
     gap: 10px;
 }
-.hr-linea{
+
+.hr-linea {
     border: 1px solid #5c7e31;
     width: 80%;
 }
-.imagen-arbol{
+
+.imagen-arbol {
     width: 75%;
     padding: 4%;
 }
-.texto-arbol{
+
+.texto-arbol {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
-.logo-github{
+
+.logo-github {
     width: 100%;
     border-radius: 40px;
     display: flex;
     flex-direction: column;
     padding: 10%;
 }
-.github-figma{
+
+.github-figma {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     text-align: center;
 }
 
-.logo-figma{
+.logo-figma {
     width: 100%;
     height: 86%;
     border-radius: 40px;
@@ -254,14 +274,17 @@ h3{
     flex-direction: column;
     padding: 9%;
 }
-.texto-roles{
+
+.texto-roles {
     text-align: center;
     padding-top: 3%;
 }
-.informacion-roles{
+
+.informacion-roles {
     padding: 5%;
 }
-.roles-li{
+
+.roles-li {
     display: flex;
     flex-direction: column;
     padding-top: 3%;
@@ -271,79 +294,91 @@ h3{
 
 /*Fin Página Avances*/
 
-@media(max-width:550px){
-    footer{
-        background-color: #83B248;
+@media(max-width:550px) {
+    footer {
         font-size: 13px;
-        bottom: 0px;
         width: 100%;
         position: fixed;
         text-align: center;
-        padding: 25px;
-        color: #ffffff;
     }
-    .main_header_nav ul{
+
+    .main_header_nav ul {
         flex-wrap: wrap;
     }
+
     .imagen_salud {
-        width: 40%;
-        padding: 6%;
+        width: 35%;
+        padding: 3%;
     }
+
     .main_header_nav_boton {
         width: 139px;
         margin: 20px;
-    }   
-    .imagen_construccion{
-        width: 20em;
-        padding: 2em;
-        margin: 35px;
-        position: relative;
-        left: 0px;
     }
+
 
     .imagen_vida {
         margin-bottom: 10%;
         width: 75%;
     }
+
     .proyecto_caja {
-        display: flex;
-        flex-direction: column;
-        margin: 15%;
-        width: 72%;
-        align-items: center;
-        overflow: auto;
+        margin: 10%;
+        width: 80%;
     }
 
-    .pagina_inicio{
-     padding: 20px;
+    .pagina_inicio {
+        padding: 14%;
     }
 
-    .logo-life-good{
+    .logo-life-good {
         width: 115%;
         margin-bottom: 23%;
 
     }
 
+    /*Inicio pagina Integrantes*/
+    .imagen_integrantes {
+        width: 90%;
+        height: 65%;
+        flex-shrink: 0;
+        border-radius: 167px;
+        margin: 4%;
+        padding: 6%;
+    }
 
+    .cv_boton {
+        width: 90%;
+        padding: 3%;
+        margin: 3%;
+    }
+
+
+    /*Fin pagina Integrantes*/
     /*Inicio pagina Avances*/
-    .footer_avances_sitio{
+    .footer_avances_sitio {
         position: fixed;
     }
+
     .logo-avances {
-    width: 100%;
+        width: 100%;
     }
-    .caja-texto-informacion{        
+
+    .caja-texto-informacion {
         width: 100%;
         gap: 10px;
     }
-    .imagen-arbol{
+
+    .imagen-arbol {
         width: 100%;
         padding: 2%;
     }
-    .roles-li{
+
+    .roles-li {
         padding-bottom: 15%;
     }
-    .logo-figma{
+
+    .logo-figma {
         width: 95%;
         height: 87%;
         border-radius: 40px;
@@ -351,6 +386,16 @@ h3{
         flex-direction: column;
         padding: 7%;
     }
+
     /*Fin pagina Avances*/
+
+    /*Inicio pagina Sitio del Proyecto*/
+    .imagen_construccion {
+        width: 88%;
+        padding: 10%;
+        margin: 6%;
+        position: relative;
+        left: 0%;
+    }
 
 }
