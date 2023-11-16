@@ -219,12 +219,7 @@ h3 {
     padding: 4%;
 }
 
-.imagen_construccion {
-    width: 30%;
-    margin: 5%;
-    position: relative;
-    left: 30%;
-}
+
 
 .caja-texto-informacion {
     background: rgb(131, 178, 72);
@@ -290,6 +285,29 @@ h3 {
     padding-top: 3%;
     align-items: center;
 }
+
+/*Inicio pagina sitio del proyecto*/
+.video-container {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.video-container a {
+    display: block;
+}
+
+video {
+    width: 45%;
+}
+.video-container a {
+    display: block;
+    margin-bottom: 1%;
+    color: #4285f4; 
+    text-decoration: underline; 
+    font-weight: bold; 
+    font-size: 100%; 
+}
+/*Fin pagina sitio del proyecto*/
 
 
 /*Fin Página Avances*/
@@ -388,14 +406,28 @@ h3 {
     }
 
     /*Fin pagina Avances*/
+/*Inicio pagina sitio del proyecto*/
+.video-container {
+    text-align: center;
+    margin-top: 20%;
+}
 
-    /*Inicio pagina Sitio del Proyecto*/
-    .imagen_construccion {
-        width: 88%;
-        padding: 10%;
-        margin: 6%;
-        position: relative;
-        left: 0%;
-    }
+.video-container a {
+    display: block;
+}
+
+video {
+    width: 74%;
+}
+.video-container a {
+    display: block;
+    margin-bottom: 5%;
+    color: #4285f4; 
+    text-decoration: underline; 
+    font-weight: bold; 
+    font-size: 100%; 
+}
+/*Fin pagina sitio del proyecto*/
+
 
 }
