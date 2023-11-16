@@ -296,9 +296,7 @@ h3 {
     display: block;
 }
 
-video {
-    width: 45%;
-}
+
 .video-container a {
     display: block;
     margin-bottom: 1%;
@@ -416,7 +414,7 @@ video {
     display: block;
 }
 
-video {
+.video {
     width: 74%;
 }
 .video-container a {
